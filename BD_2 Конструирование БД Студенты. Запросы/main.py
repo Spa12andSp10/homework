@@ -179,3 +179,5 @@ res = cursor.fetchall()
 print("\nЧисло людей, которые полные тезки")
 for r in res:
     print(f"{r[0]} {r[1]} {r[2]} - {r[3]}")
+
+connection.close()
